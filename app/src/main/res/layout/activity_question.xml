@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/question"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/question"
+        android:layout_width="400px">
+    </EditText>
+    <RadioGroup
+        android:id="@+id/rg"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="320px"
+            android:layout_height="wrap_content"
+            android:id="@+id/r1"
+            android:textSize="17sp"
+            android:text="茂森很给"></RadioButton>
+        <RadioButton
+            android:layout_width="320px"
+            android:layout_height="wrap_content"
+            android:id="@+id/r2"
+            android:textSize="17sp"
+            android:text="立明很给"></RadioButton>
+        <RadioButton
+            android:layout_width="320px"
+            android:layout_height="wrap_content"
+            android:id="@+id/r3"
+            android:textSize="17sp"
+            android:text="两个都给"></RadioButton>
+        <RadioButton
+            android:layout_width="320px"
+            android:layout_height="wrap_content"
+            android:id="@+id/r4"
+            android:textSize="17sp"
+            android:text="全宿舍都给"></RadioButton>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/sure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textSize="32dp" />
+    <Button
+        android:id="@+id/cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:textSize="32dp"/>
+
+</LinearLayout>
